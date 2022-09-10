@@ -34,7 +34,7 @@ header{
 }
 
 .me{
-    /* background: var(--color-primary); */
+    
     width: 22rem;
     height: 29rem;
     position: absolute; 
@@ -72,9 +72,19 @@ header{
       height: 90vh;
       
     }
-    .socials,.scroll_down{
+    .socials,
+    .scroll_down{
         display: none;
     }
+
+    .cta{
+        width: max-content;
+        margin-left: -4rem;
+        
+        
+        
+    }
+
   }
 
   
